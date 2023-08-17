@@ -1,4 +1,3 @@
-#karthus
 
 ## Notes:
 correctly pulls and auto-kite camps during jungle clear
@@ -27,9 +26,10 @@ Triggers:
 	- Other miscellaneous events
 
 - Anti-Gap:
-	Will be cast for self-peel if any enemy is too close
+	- Will be cast for self-peel if any enemy is too close
 
-- PvP
+- Combo/PvP
+ 	 - can be configured in advanced menu
   
 ---
 
@@ -39,12 +39,17 @@ E can be configured however you prefer for lane and jungle clear. Essential sett
 
   PvE:
 	  Lane Clear: Turbo only
-	  Jungle Clear: Always, with extra logic for toggling
+	  Jungle Clear: Always/Automatic, with extra logic for toggling
+			- advanced logic is configurable for user preference
 
   PvP (combo/harass):
-	  Works as expected, also configurable.
+	  Works as expected, essential should work well, but has a few configuration options if you need
 
+---
 
 ## R
+
 - Combo R 
 - Zombie mode
+
+---
