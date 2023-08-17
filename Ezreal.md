@@ -12,7 +12,7 @@ Spacebar To Win (SBTW): Enabled by default (essential)
   - Combo mode will now be 'Spacebar to Win', allowing users to completely disengage their brains and play how they want, without needing to press more than 1 key!
   - Basically, combo mode has less restrictions and some logic to remove the need for modifier keys.
 
-  - Players who are used to Legacy Ezreal, or prefer to have greater control / more options, can enable this by editing the Advanced panel (see below for indepth explanation).
+  - Players who are used to Legacy Ezreal, or prefer to have greater control / more options, can enable this by enabling 'Flexible' Logic Mode under the Advanced panel (see below for indepth explanation).
   - If you are just going to hold spacebar, don't use Advanced.
 
 
@@ -71,13 +71,11 @@ ___
 
 By default, essential settings will work well. If you are interested in configuring Karthus, use the advanced menu to make specific changes. Available options include:
 ```
-- Fast Prediction: Smart/Always/Off
-- Skip Path Analysis: Special check to improve accuracy, disable for hyper-fast prediction at the cost of accuracy
-
-- Heuristic Extrapolation: Adds an extra layer of spell prediction, due to the slow cast time of Karthus Q. Tries to improve accuracy by predicting enemy actions.
-	Due to the natural unreliability of this metric, its impact can be tuned using a slider. By default, the value is set to a safe/moderate level.
-		- 0.0f = disabled
-		- 1.0f = maximum
+- Overkill: SMART/Always/Off
+- Ignore Target Lock: OFF/On
+- Cooldown Spam: ALWAYS/Smart/Off
+- Spam Modes: VERY FAST/Fast/Slow/Off
+- Logic Modes: SBTW/Flexible/Advanced
 
 - Packet Casting: allows you to cast faster than normal casting, only relevant on spells that can be spammed
 	- Packet Type: Preconfigured values set by Yasmine, based on Ping and other technical metrics. Type 1 should be used by most players.
@@ -86,6 +84,8 @@ By default, essential settings will work well. If you are interested in configur
 --- 
 
 ### Settings for Advanced/Legacy Ezreal:
+
+Enable Legacy Ezreal by enabling the Flexible logic in advanced Q settings.
 
 Legacy Ezreal was designed around Aggressive and Defensive modifiers, giving you MUCH more control over your Q in certain situations. Legacy Ezreal takes more skill to use, providing many solutions to different situations. The player can choose between speed or accuracy, depending on their inputs.
 
@@ -124,6 +124,7 @@ By default, W is also held longer to ensure accuracy / value.
 This can also be overridden by using a modifier key.
 
 ___
+
 ### E
 
 **E is a highly situational ability. It is your own responsibility to cast E as you see fit.** However, there are several configuration options available.
@@ -135,13 +136,17 @@ Evade is also allowed to use E defensively. The location is chosen based on a "S
 If you wish, this can be set to work only in defensive mode to allow the user even more control over their E usage, but it may result in unwanted deaths. How you use E is strictly up to you and your playstyle. I recommend spending the most time on E settings, so it functions how you prefer.
 
 This is the optimal way to use E. If you want to use E aggressively or forward, you will have to input it manually.
+
 ___
+
 ### R
 
 Disabled by default, many users prefer to cast R manually or use a "request" keybind. Override is also a good option, but I prefer Request R and casting it manually when I need to.
 
 If you want R to be used in a combo without extra input, you can enable the "automatic" function and configure how you would like it to be used. This will allow the script to cast R without any input, but be warned that it can sometimes cast R at dangerous times. However, there are safety checks you can enable to mitigate this risk.
 ___
+
+### Quick Tips
 
 Combo = fast spell. 
 Combo + mod = instant spell, no checks, shoots out of range. 
@@ -157,6 +162,7 @@ X + mod = fast last hit.
 Eco mode does not have a mana restriction, it simply uses the spell less often.
 
 Spam mode is automatic once you reach mid-game + turbo mode, but you can force it from level 1 with turbo + fast clear, which is an orb aggro modifier + V.
+
 ___
 
 ## Quick Settings Guide
@@ -170,6 +176,7 @@ If you have issues with E, you can configure it to your personal preference, but
 4. **R:** 
   - Choose a hotkey for "request R", or set it to an override.
   - Open the Automatic tab and read through the options, if you want R to be cast automatically in some scenarios, you can set it up here, or set it to "essential", which will try to only cast R automatically at ideal moments.
+
 ---
 
 ## Playstyle, Builds and Gameplay Tips:
@@ -179,5 +186,3 @@ I highly recommend watching Moana's Ezreal gameplay, found in the pinned section
 - Ezreal has an insanely high skill ceiling, even with scripts. You can be successful with Disney Ezreal without knowing how to play Ezreal, but if you one trick it, and take time to learn its strengths and limits, you will be rewarded
 - The difference between good and bad Ezreals mainly comes down to how well they use their range and positioning to gain advantages, as well as E usage.
 - Gameplay footage by Hanql, a Chinese Super-Server Challenger Ezreal One-Trick can be beneficial to watch, especially regarding certain matchups.
-
-
