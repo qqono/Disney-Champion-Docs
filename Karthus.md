@@ -71,6 +71,7 @@ E can be configured however you prefer for lane and jungle clear. Essential sett
 
 R will never be cast automatically for you, unless you are in passive, in which case it will cast at the last possible second, after dealing as much DPS as possible.
 Drawings, warnings and indicators are configurable in the Drawings section.
+
 ---
 
 ## Auto Attacks:
